@@ -54,6 +54,9 @@ repositories {
       // Android JSC is installed from npm
       url "$rootDir/../node_modules/jsc-android/dist"
     }
+    maven {
+       url "https://mvn.cloud.alipay.com/nexus/content/repositories/open/"
+    }
     google()
     jcenter()
 }
